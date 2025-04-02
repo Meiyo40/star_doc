@@ -87,20 +87,6 @@ export default defineConfig({
 						}
 					],
 				},
-				{
-					label: "Enums",
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{
-							label: "EStatModifierType",
-							slug: "enums/estatmodifiertype"
-						},
-						{
-							label: "EStatTargetValue",
-							slug: "enums/estattargetvalue"
-						}
-					],
-				}
 			],
 		}),
 	],
