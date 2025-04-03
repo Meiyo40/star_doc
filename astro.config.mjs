@@ -16,6 +16,13 @@ export default defineConfig({
 			social: {
 				github: "https://github.com/meiyo40",
 			},
+			defaultLocale: "root",
+			locales: {
+				root: {
+					label: "English",
+					lang: "en"
+				}
+			},
 			sidebar: [
 				{
 					label: "Get started",
