@@ -6,17 +6,6 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
 	site: "https://meiyo40.github.cio",
 	base: "/",
-	i18n: {
-		defaultLocale: "en",
-		locales: ["en"],
-		routing: {
-		// Ensure this is set to true if you want to use redirectToDefaultLocale
-		prefixDefaultLocale: true,
-		
-		// Either set this to true or remove it if not needed
-		redirectToDefaultLocale: true,
-		},
-	},
 	integrations: [
 		starlight({
 			title: "My Docs",
