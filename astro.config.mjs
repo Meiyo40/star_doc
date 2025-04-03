@@ -4,7 +4,7 @@ import starlight from "@astrojs/starlight";
 	
 // https://astro.build/config
 export default defineConfig({
-	site: "https://meiyo40.github.cio",
+	site: "https://meiyo40.github.io",
 	base: "/",
 	integrations: [
 		starlight({
@@ -14,7 +14,7 @@ export default defineConfig({
 				'./src/styles/custom.css',
 			],
 			social: {
-				github: "https://github.com/withastro/starlight",
+				github: "https://github.com/meiyo40",
 			},
 			sidebar: [
 				{
