@@ -22,6 +22,10 @@
 	width: var(--sl-sidebar-width);
 }
 
+.link-card-custom {
+    width: 100%;
+}
+
 /*tr*/
 .no-border-bottom td {
     border-bottom: none !important; /* Retirer la bordure du bas pour tous les <td> de cette ligne */
