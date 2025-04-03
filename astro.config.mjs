@@ -28,6 +28,14 @@ export default defineConfig({
 						{
 							label: "Create your stat component",
 							slug: "create-component"
+						},
+						{
+							label: "Hide undesired stat names",
+							slug: "hide-stats"
+						},
+						{
+							label: "Modify experience formula",
+							slug: "override-experience-formula"
 						}
 					],
 				},
