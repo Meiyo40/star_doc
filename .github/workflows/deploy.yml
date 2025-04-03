@@ -29,7 +29,13 @@ jobs:
 
       - name: Install dependencies
         run: |
+          # Enable Corepack
+          corepack enable
+          # Set Yarn version
           yarn set version stable
+          # Install dependencies without immutable flag for first run
+          yarn install
+          # Now we can use immutable
           yarn install --immutable
 
       - name: Install, build, and upload your site
