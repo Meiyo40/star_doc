@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           yarn set version stable
-          yarn install --frozen-lockfile
+          yarn install --immutable
 
       - name: Install, build, and upload your site
         uses: withastro/action@v3
